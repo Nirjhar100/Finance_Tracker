@@ -1,3 +1,7 @@
+html{
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,9 +9,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(/img/ab.jpg) repeat;
+  background-size: 100%;
+  background-position: top;
+  background-color:black;
+  min-height:100%; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+input, textarea, select {
+  background-color : black;
+  color : #fff;
+}
+
+form{
+  border : 5px solid black;
+  padding: 20px;
+  margin-top: 60px;
+  background-color:#ffc;
+}
+
+form button,form h5{
+  margin:20px 0;
+}
+
+.homepageMsg{
+  padding: 10px;
+  margin-top: 100px;
+  position: sticky;
 }
